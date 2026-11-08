@@ -1,6 +1,6 @@
-# DIY M2 RETRO DIGITAL CAMERA
+# POINT CAMERA
 
-**DIY M2 RETRO DIGITAL CAMERA** is an open-source, minimalist point-and-shoot camera inspired by bare-PCB, transparent retro cameras (such as the Paper Shoot and DIY M2). Engineered around the dual-core **ESP32** microcontroller, it features a 24-pin DVP CMOS image sensor, a high-contrast 0.96" OLED live HUD, a high-speed SPI MicroSD card slot, an ergonomic shoulder shutter button, a 4-way tactile D-Pad for real-time retro film filters, and innovative integrated side-wall slider grooves that allow a glass or acrylic viewfinder sheet to slide directly into the PCB!
+**POINT CAMERA** is an open-source, minimalist point-and-shoot camera inspired by bare-PCB, transparent retro cameras. Engineered around the dual-core **ESP32** microcontroller, it features a 24-pin DVP CMOS image sensor, a high-contrast 0.96" OLED live HUD, a high-speed SPI MicroSD card slot, an ergonomic shoulder shutter button, a 4-way tactile D-Pad for real-time retro film filters, and innovative integrated side-wall slider grooves that allow a glass or acrylic viewfinder sheet to slide directly into the PCB!
 
 When the **MODE** button is pressed, the camera cycles between 4 distinct photographic color profiles: **Natural (Normal)**, **Vivid Retro Warm**, **Monochrome B&W**, and **1970s Vintage Sepia**.
 
@@ -52,21 +52,20 @@ Every section of the carrier board is ergonomically laid out so that the bare PC
 
 ## Bill of Materials (BOM)
 
-| Item | Qty | Supplier | Cost / Item (USD) | Total Cost (USD) | Link |
+| Item | Qty | Supplier | Cost/item | Total Cost | link |
 | :--- | :---: | :--- | :---: | :---: | :--- |
-| **ESP32 36-Pin Development Board (NodeMCU-32S / ESP-WROOM-32)** | 1 | Robu.in | $5.35 | $5.35 | [Robu.in](https://robu.in/product/esp32-development-board/) |
-| **0.96" I2C Monochrome OLED Display Module (SSD1306 128×64)** | 1 | Robu.in | $2.15 | $2.15 | [Robu.in](https://robu.in/product/0-96-inch-i2c-oled-display-module-blue/) |
-| **SPI MicroSD (TF) Card Breakout Module** | 1 | Robu.in | $0.75 | $0.75 | [Robu.in](https://robu.in/product/micro-sd-card-module/) |
-| **OV2640 2MP Camera Sensor Module (24-Pin 0.5mm Pitch DVP FPC)** | 1 | Robu.in | $4.85 | $4.85 | [Robu.in](https://robu.in/product/ov2640-camera-module-with-adapter-board/) |
-| **16GB High-Speed MicroSD Card (FAT32 Class 10 / UHS-1)** | 1 | Robu.in | $3.90 | $3.90 | [Robu.in](https://robu.in/product/sandisk-ultra-16gb-microsdhc-uhs-i-card/) |
-| **6×6×5mm Tactile Push Button Switches (Pack of 10)** | 1 | Robu.in | $0.23 | $0.23 | [Robu.in](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
-| **24-Pin 0.5mm Pitch Bottom-Contact FPC Connector (Hirose FH12-24S-0.5SH)** | 1 | LCSC | $0.45 | $0.45 | [LCSC](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_Hirose-Electric-FH12-24S-0-5SH-55_C23912.html) |
-| **2.54mm 1×40-Pin Female Single Row Header Strips (Pack of 10)** | 1 | Robu.in | $1.43 | $1.43 | [Robu.in](https://robu.in/product/2-54mm-1x40-pin-female-single-row-header-strip-pack-of-10/) |
-| **M2.5 Brass Hex Standoffs & Screws Kit (Pack of 10)** | 1 | Robu.in | $0.95 | $0.95 | [Robu.in](https://robu.in/product/m2-5-brass-hex-threaded-pillar-standoff-spacers-pack-of-10/) |
-| **Optical Glass / Clear Acrylic Viewfinder Sheet (48.5×32×1.5mm)** | 1 | Amazon | $0.80 | $0.80 | [Amazon](https://www.amazon.com/dp/B08P1X2XYZ) |
-| **USB-A to Type-C / Micro-USB Shielded Data & Power Cable** | 1 | Robu.in | $0.70 | $0.70 | [Robu.in](https://robu.in/product/usb-2-0-type-a-to-micro-b-cable-1m/) |
-| **Custom DIY M2 Camera Carrier PCB Manufacturing (5 pcs)** | 5 | JLCPCB | $1.48 | $7.40 | [JLCPCB](https://jlcpcb.com/) |
-| **Total Project Cost** | **16** | — | — | **$28.96** | — |
+| **ESP32 38-Pin Development Board (Dual-Core WiFi/BT)** | 1 | Robu.in | $5.35 | $5.35 | [Robu.in](https://robu.in/product/esp32-38pin-development-board-wifibluetooth-ultra-low-power-consumption-dual-core/) |
+| **0.96-inch I2C OLED Display Module (SSD1306 128x64 Blue)** | 1 | Robu.in | $2.15 | $2.15 | [Robu.in](https://robu.in/product/0-96-inch-i2c-oled-display-module-blue/) |
+| **Micro SD Card Adapter Module (SPI Interface)** | 1 | Robu.in | $0.75 | $0.75 | [Robu.in](https://robu.in/product/micro-sd-card-module/) |
+| **OV2640 2MP Camera Module with 24-Pin FPC Cable** | 1 | Robu.in | $4.85 | $4.85 | [Robu.in](https://robu.in/product/ov2640-camera-module-with-adapter-board/) |
+| **SanDisk Ultra 16GB MicroSDHC UHS-I Card (Class 10)** | 1 | Robu.in | $3.90 | $3.90 | [Robu.in](https://robu.in/product/sandisk-ultra-16gb-microsdhc-uhs-i-card/) |
+| **6x6x5mm Tactile Push Button Switches (Pack of 10)** | 1 | Robu.in | $0.23 | $0.23 | [Robu.in](https://robu.in/product/6x6x5-tactile-push-button-switch/) |
+| **Hirose 24-Pin 0.5mm Pitch Bottom-Contact FPC Connector** | 1 | LCSC | $0.45 | $0.45 | [LCSC](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_Hirose-Electric-FH12-24S-0-5SH-55_C23912.html) |
+| **2.54mm 1x40-Pin Female Single Row Header Strips (Pack of 10)** | 1 | Robu.in | $1.43 | $1.43 | [Robu.in](https://robu.in/product/2-54mm-1x40-pin-female-single-row-header-strip-pack-of-10/) |
+| **M2.5 Brass Hex Threaded Pillar Standoff Spacers (Pack of 10)** | 1 | Robu.in | $0.95 | $0.95 | [Robu.in](https://robu.in/product/m2-5-brass-hex-threaded-pillar-standoff-spacers-pack-of-10/) |
+| **Importing Tax and Customs Duty** | 1 | Customs / Shipping | $35.00 | $35.00 | — |
+| **Estimated total shipping** | 1 | — | — | $0.00 | — |
+| **Total Project Cost** | **9** | — | — | **$55.06** | — |
 
 *Downloadable spreadsheet format is available at [BOM.csv](BOM.csv).*
 
@@ -76,7 +75,7 @@ Every section of the carrier board is ergonomically laid out so that the bare PC
 
 1. **Solder the Low-Profile Surface Mount FPC Connector**:
    - Align the 24-pin 0.5mm pitch `CAM1` connector onto the SMD pads at the bottom center of the board.
-   - Solder using fine-tip soldering iron or solder paste and hot air.
+   - Solder using a fine-tip soldering iron or solder paste and hot air.
 2. **Solder the Tactile Push Buttons**:
    - Insert and solder the 5× 6×6×5mm tactile buttons: `SW2` (Shutter), `SW3` (UP), `SW4` (DOWN), `SW5` (LEFT), and `SW6` (RIGHT).
 3. **Solder the Female Socket Headers**:
@@ -99,7 +98,7 @@ Every section of the carrier board is ergonomically laid out so that the bare PC
 
 ## Software
 
-The firmware supports both physical hardware and the Wokwi online web simulator.
+The firmware supports physical hardware, the Wokwi online web simulator, and live laptop webcam streaming via serial bridge.
 
 ### Arduino IDE Upload Instructions
 1. Open the Arduino IDE (v2.0 or newer).
@@ -107,7 +106,7 @@ The firmware supports both physical hardware and the Wokwi online web simulator.
    ```
    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
    ```
-3. In **Tools > Board > Boards Manager**, install `esp32` by Espressif (version 2.0.14 or later).
+3. In **Tools > Board > Boards Manager**, install `esp32` by Espressif.
 4. In **Sketch > Include Library > Manage Libraries...**, install:
    - `Adafruit SSD1306`
    - `Adafruit GFX Library`
@@ -122,8 +121,8 @@ The firmware supports both physical hardware and the Wokwi online web simulator.
 
 ## 💻 Wokwi Browser Simulation
 
-Want to test the camera without physical hardware? You can simulate the entire circuit directly in your web browser using **[Wokwi](https://wokwi.com)**:
-- Full wiring diagram, ESP32 MCU, 0.96" SSD1306 OLED, SPI MicroSD card, and 5 tactile push buttons.
+Test the entire camera circuit directly in your web browser using **[Wokwi](https://wokwi.com)**:
+- Full wiring diagram connecting the ESP32 MCU, 0.96" SSD1306 OLED, SPI MicroSD card, and 5 tactile push buttons.
 - Test shutter clicks, live HUD updates, filter switching, and virtual SD card JPEG saving.
 - Check out the **[`wokwi/` directory](wokwi/README.md)** for 3-step launch instructions!
 
@@ -134,15 +133,7 @@ Want to test the camera without physical hardware? You can simulate the entire c
 All hardware design files are verified with KiCad 10.0 and have achieved a verified **0 DRC violation, 0 unconnected item** score:
 
 - **KiCad PCB Layout**: [diy_camera.kicad_pcb](diy_camera.kicad_pcb)
-- **KiCad Project File**: [diy_camera.kicad_pro](diy_camera.kicad_pro)
-- **KiCad Local Settings**: [diy_camera.kicad_prl](diy_camera.kicad_prl)
 - **Fabrication Gerber Archive**: [gerbers/](gerbers/) *(RS-274X Gerbers & Excellon drill files)*
 - **Bill of Materials Spreadsheet**: [BOM.csv](BOM.csv)
 - **Bill of Materials Documentation**: [BOM.md](BOM.md)
 - **KiCad DRC Verification Report**: [diy_camera-drc.rpt](diy_camera-drc.rpt) *(0 errors)*
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE) — free for maker builds, educational modifications, and commercial derivation with attribution.
